@@ -61,7 +61,7 @@ body{
     position: relative;
     padding: 90px 0;
     text-align: center;
-     /*#aa9166*/ background-image: url(images/ef.jpg);;
+     /*#aa9166*/ background-image: url(../images/ef.jpg);;
     margin-bottom: 3rem;
 }
 
@@ -168,7 +168,7 @@ body{
 
 .blog{
     /*background-color: grey;*/
-    background-image: url(images/gh.jpg);
+    background-image: url(../images/gh.jpg);
     /*background-color: #4A4C49;*/
     ;
 }

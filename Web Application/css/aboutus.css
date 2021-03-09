@@ -25,7 +25,7 @@
 }
 
 .slide{
-    background-image: url("images/about1.jpg");
+    background-image: url("../images/about1.jpg");
     height: 30%; 
     background-position: center;
     background-repeat: no-repeat;
@@ -89,7 +89,7 @@ body,html{
 
 
 .all{
-    background-image: url("images/ef.jpg");
+    background-image: url("../images/ef.jpg");
    
     background-repeat: no-repeat;
     background-size: cover;

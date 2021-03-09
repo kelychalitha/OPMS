@@ -136,7 +136,7 @@
 
 .down{
 	/*background-color: #9EA09E;*/
-	background-image: url("images/ef.jpg");
+	background-image: url("../images/ef.jpg");
 	box-shadow: 12px 12px 22px black;
 	background-repeat: no-repeat;
 	background-size: cover;

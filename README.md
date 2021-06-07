@@ -2,4 +2,4 @@
 Online Pharmacy Management System
 ------------------------------------------------------------------------------------------------------------------------------------
 
-This Project will update soon in the future...
+This Project will update soon in the future. Currently under development. :)

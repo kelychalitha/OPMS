@@ -1,0 +1,98 @@
+.navbar-brand img{
+    height:3rem;
+}
+.navbar{
+    font-size:1.15rem;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    box-shadow: 0 .5rem .5rem rgba(0,0,0,.1);
+    z-index:1;
+    align-content: right;
+
+    
+}
+.nav-item{
+    padding:.5rem;
+
+}
+.nav-link{
+    color:#5b5555 !important;
+}
+.nav-link.active,
+.nav-link:hover{
+    color:#236E0B!important;
+    font-weight: bold;
+}
+
+.slide{
+    background-image: url("https://i.postimg.cc/nzD3w3GH/ddd.jpg");
+    height: 30%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+body,html{
+     height: 100%;
+     margin-top: 75px;
+}
+
+
+.para h2{
+    color:#236E0B;
+    margin-left: 20px;
+
+}
+.para h6{
+    color:gray;
+    margin-left: 20px;
+}
+
+.parao h5{
+    color:black;
+    margin-left: 20px;
+    font-weight: bold;
+   }
+
+.parao h6{
+    color:black;
+    margin-left: 20px;
+    
+}
+
+.parat h5{
+    color:black;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.parat h6{
+    color:black;
+    margin-left: 20px;
+    margin-bottom: 100px;
+}
+
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height:60px;
+   background-color: #2d5e7a;
+   color: rgb(255, 253, 253);
+   text-align: center;
+
+}
+
+
+.all{
+    /*background-image: url("../images/ef.jpg");*/
+    background-color:#78e0e6;
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}

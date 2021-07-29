@@ -1,0 +1,179 @@
+ 
+  .content * {
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  .content{
+      padding-top: 350px;
+      padding-bottom: 300px;
+  }
+  
+  .row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    /*margin: 0 -16px;*/
+    margin-left: 100px;
+    margin-right: 100px;
+    
+  }
+  
+  .col-25 {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    
+  }
+  
+  .col-50 {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+  }
+  
+  .col-75 {
+    -ms-flex: 75%; /* IE10 */
+    flex: 75%;
+  }
+  
+  .col-25,
+  .col-50,
+  .col-75 {
+    padding: 20px 16px;
+    text-align: left;
+  }
+  
+  .container2 {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+  }
+  
+  .content input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .content label {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+  }
+  
+  .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  }
+  
+  .content a {
+    color: #2196F3;
+  }
+  
+  .content hr {
+    border: 1px solid lightgrey;
+  }
+  
+  .content span.price {
+    float: right;
+    color: grey;
+  }
+
+  .content ul {
+    list-style-type: none;
+  }
+  
+  .content li {
+    display: inline-block;
+  }
+
+  .content input[type="checkbox"][id^="cb"] {
+    display: none;
+  }
+  
+  .content label {
+    border: 1px solid #fff;
+    padding: 10px;
+    display: block;
+    position: relative;
+    margin: 10px;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  .content label::before {
+    background-color: white;
+    color: white;
+    content: " ";
+    display: block;
+    border-radius: 50%;
+    border: 1px solid grey;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 28px;
+    transition-duration: 0.4s;
+    transform: scale(0);
+  }
+  
+  .content label img {
+    height: 100px;
+    width: 100px;
+    transition-duration: 0.2s;
+    transform-origin: 50% 50%;
+  }
+  
+  .content :checked+label {
+    border-color: #ddd;
+  }
+  
+  .content :checked+label::before {
+    content: "✓";
+    background-color: grey;
+    transform: scale(1);
+  }
+  
+  .content :checked+label img {
+    transform: scale(0.9);
+    box-shadow: 0 0 5px #333;
+    z-index: -1;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
+  @media (max-width: 700px) {
+    .row {
+        margin-top: 300px;
+      flex-direction: column-reverse;
+      
+    }
+
+  }
+
+ 
